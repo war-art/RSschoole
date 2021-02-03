@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "ura100knig",
+    "mongoUri": "mongodb+srv://xii:ura100knig@cluster0.lfi6p.mongodb.net/app?retryWrites=true&w=majority"
+}

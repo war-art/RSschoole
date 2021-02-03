@@ -1,0 +1,13 @@
+.SL-item {
+    color: #fff;
+}
+
+.SL-container {
+    font-size: 16px !important;
+}
+
+.SL-input-container {
+    background-color: rgb(85 126 207);
+    display: flex;
+    justify-content: center;
+}

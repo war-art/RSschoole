@@ -1,0 +1,89 @@
+.students {
+
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+
+}
+
+.students td,
+.students th {
+  border: 1px solid #ddd;
+  height: 20px;
+  width: 20vw;
+  color: #fafafa;
+  font-size: 15px;
+  padding: 0px;
+  text-align: center;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+
+
+.students tr:first-child:hover {
+  background-color: #3f3030 !important;
+}
+
+.students tr:hover {
+  background-color: #3f3030;
+}
+
+tr:first-child {
+
+  text-align: center;
+  background-color: #2c28289a;
+  color: rgba(0, 0, 0, .85);
+  height: 30px;
+  font-size: 20px;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+}
+
+.row1,
+.row3,
+.rrow1,
+.rrow3 {
+  width: 25vw;
+
+}
+
+.row2,
+.rrow2 {
+  width: 5vw;
+}
+
+.row4,
+.rrow4 {
+  width: 30vw;
+}
+
+.row5,
+.rrow5 {
+  width: 15vw;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  background: rgb(47, 140, 198);
+  background: linear-gradient(90deg, rgba(47, 140, 198, 1) 0%, rgba(18, 13, 162, 1) 100%);
+  width: 100vw;
+  height: 50px;
+  left: 0;
+}
+
+.first-block {
+  display: flex;
+  flex-direction: column;
+}

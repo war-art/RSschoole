@@ -1,0 +1,27 @@
+.MuiInputBase-root {
+    color: #fff !important;
+    width: 110px;
+}
+
+.MuiFormLabel-root.Mui-focused,
+.MuiFormLabel-root {
+    color: #fff !important;
+}
+
+.MuiInput-underline:before {
+    border-bottom: 1px solid #fff !important;
+}
+
+.MuiSelect-icon {
+    color: #fff !important;
+}
+
+.Submit-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.submited-tasks-item {
+    margin: 20px 0 10px 25px;
+    font-size: 17px;
+}

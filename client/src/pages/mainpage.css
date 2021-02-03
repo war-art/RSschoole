@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #282c34;
+}
+
+header {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rsHeaderLogo img {
+    height: auto;
+    max-width: 6rem;
+}
+
+.profileNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 8rem;
+    border: 2px dotted lightgrey;
+    border-radius: 5%;
+}
+
+.profileNav img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.profileNav:hover {
+    color: deepskyblue;
+    border: 2px dotted deepskyblue;
+    cursor: pointer;
+}
+
+.courseSet {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.courseSet select {
+    border: 1px solid lightgrey;
+    width: 15rem;
+    height: 32px;
+}
+
+.courseSet select:hover {
+    cursor: pointer;
+    border: 1px solid lightblue;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.navPages {
+    width: 30%;
+    min-width: 15rem;
+    margin: 1rem;
+    border: 1px solid lightgrey;
+}
+
+.navPages div {
+    padding: 0.5rem;
+}
+
+.navPages div {
+    border-bottom: 1px solid lightgrey;
+}
+
+.navPages a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+.navPages a:hover {
+    color: deepskyblue;
+}
+
+.stats {
+    height: 100%;
+    width: 28%;
+    min-width: 217px;
+    margin: 1rem;
+    border: 1px solid lightgrey;
+}
+
+.statsHeader {
+    border-bottom: 1px solid lightgrey;
+    padding: 0.5rem;
+}
+
+.statsContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+.completedTasks {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.statsValue {
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+.statusContentSubheader {
+    color: grey;
+    margin-bottom: 0.5rem;
+}
+
+.statsStatus {
+    color: limegreen;
+    font-size: 18pt;
+}
+
+.mentor {
+    height: 100%;
+    width: 28%;
+    min-width: 184px;
+    margin: 1rem;
+    border: 1px solid lightgrey;
+}
+
+.mentorHeader {
+    border-bottom: 1px solid lightgrey;
+    padding: 0.5rem;
+}
+
+.montorContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+.mentorLink {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mentorLink a {
+    text-decoration: none;
+    color: #1e90ff;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.mentorGhLink {
+    display: none;
+}
+
+.mentorLink {
+    display: inline-flex;
+}
+
+.mentorLink img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.mentorLink:hover .mentorGhLink {
+    display: inline-block;
+}
+
+.mentorItem {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.mentorTitle {
+    color: grey;
+    margin-right: 0.2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #f0f2f5;
+    margin-top: 3rem;
+}
+
+.linksBlock,
+.socialsBlock {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.5rem;
+    margin-right: 10%;
+}
+
+.socialsBlock {
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.linksBlock {
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.help,
+.feedback,
+.donators {
+    margin: 0.5rem;
+}
+
+.help a,
+.feedback a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+.helpContent,
+.feedbackContent {
+    margin: 0.5rem;
+}
+
+.helpContent div,
+.feedbackContent div {
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+.donators h4 {
+    margin-bottom: 1rem;
+}
+
+.donators img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.donators a {
+    text-decoration: none;
+}
+
+.donatorsImgs {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.donators button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    height: 32px;
+    width: 158px;
+    border: 1px solid lightgrey;
+}
+
+.donators button:hover {
+    border: 1px solid deepskyblue;
+    color: deepskyblue;
+}
+
+.donators button svg {
+    margin-right: 0.2rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials div {
+    margin: 0.5rem;
+}
+
+.allRights {
+    margin-left: 50%;
+    font-size: 10pt;
+}
+
+@media screen and (max-width: 800px) {
+    .navPages {
+        width: 45%;
+    }
+
+    .stats {
+        width: 45%;
+    }
+
+    .mentor {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navPages {
+        width: 80%;
+    }
+
+    .stats {
+        width: 80%;
+    }
+
+    .mentor {
+        width: 80%;
+    }
+}

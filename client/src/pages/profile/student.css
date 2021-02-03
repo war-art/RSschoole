@@ -1,0 +1,101 @@
+.profile {
+    margin-top: 20px !important;
+}
+
+.profile-block {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-photo {
+    width: 90px;
+    height: 98px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.profile-name {
+    text-align: center;
+}
+
+.profile-email {
+    color: rgb(65, 97, 241);
+    font-size: 18px;
+}
+
+.margin-top {
+    margin-top: 25px;
+}
+
+.profile-location {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.contacts {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.profile-email2,
+.telegram,
+.Phone {
+    font-size: 18px;
+}
+
+.Phone {
+    margin-bottom: 20px;
+}
+
+.about {
+    height: 53vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-header {
+    margin: 20px;
+}
+
+.english {
+    margin-top: 20px;
+    height: 25vh;
+}
+
+.english-header {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.subscription div a {
+    color: blue;
+    letter-spacing: -0.7px;
+}
+
+.subscription-header {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.subscription {
+    margin: 20px;
+    text-align: initial;
+    font-size: 18px;
+}
+
+.education-header {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.education {
+    margin: 20px;
+    height: 51vh;
+}
